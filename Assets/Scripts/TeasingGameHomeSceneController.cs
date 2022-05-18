@@ -31,5 +31,9 @@ public class TeasingGameHomeSceneController : MonoBehaviour
     {
         STSSceneManager.LoadScene(SceneForButton.ToString());
     }
+
+        public void SetDifficulty(int maxRotation) {
+            GameController.difficultyLevel = maxRotation;
+        }
 }
 }
